@@ -1,11 +1,17 @@
 from flask import Flask, jsonify
 import os
+import time
+
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
+    for i in range(10)
+        print(i)
+        time.sleep(3)
+        
     return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
 
