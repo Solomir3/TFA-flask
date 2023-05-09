@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    for i in range(10)
+    for i in range(2)
         print(i)
         time.sleep(3)
         
